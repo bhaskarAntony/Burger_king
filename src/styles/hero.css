@@ -9,6 +9,12 @@
     justify-content: center;
     position: relative;
 }
+@media(max-width:768px){
+    .hero-text, .hero-image{
+        min-height: fit-content;
+        padding: 20px 10px;
+    }
+}
 .hero-text h1{
     z-index: 2;
 }
