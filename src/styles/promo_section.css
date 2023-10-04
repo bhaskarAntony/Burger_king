@@ -1,0 +1,14 @@
+.promo-card{
+    background-color: #272626;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 370px;
+
+}
+.promo-image img:hover{
+    transform: scale(1.1) translateY(-10px);
+    transition: 0.5s;
+}
+.promo-image img{
+    max-width: 200px;
+}

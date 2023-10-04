@@ -1,0 +1,26 @@
+.categories{
+   
+}
+.categorie-card{
+    padding: 10px;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+}
+.yellow{
+    background:linear-gradient(45deg, #f9ce0b, #f8e838) !important;
+}
+.green{
+    background:linear-gradient(45deg, #038040, #38f87b) !important;
+}
+.red{
+    background:linear-gradient(45deg, #cb0641, #f8386b) !important;
+}
+.categorie-img{
+    width: 100px;
+    position: relative;
+}
+.categorie-img img{
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}

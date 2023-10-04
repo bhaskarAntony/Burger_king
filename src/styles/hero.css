@@ -1,0 +1,44 @@
+.hero{
+    background: var(--main-color-gradient);
+    min-height: 100vh;
+}
+.hero-text, .hero-image{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.hero-text h1{
+    z-index: 2;
+}
+.hero-image img{
+    z-index: 10;
+    animation: burgure-anim 1s linear infinite alternate;
+}
+.blur, .blur-left{
+    width: 200px;
+    height: 200px;
+    background-color: var(--main-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    filter: blur(90px);
+}
+.blur-left{
+    left: 0;
+    top: 0;
+}
+@keyframes burgure-anim{
+    from{
+        transform: translateX(8px) translateY(10px);
+    }
+    to{
+        transform: translateX(-8px) translateY(-10px);
+    }
+}
+@media (max-width:768px){
+    .hero-btn{
+        min-width: 100%;
+    }
+}

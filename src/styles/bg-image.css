@@ -1,0 +1,13 @@
+.bg-image{
+    background: linear-gradient(45deg, #1e1d1d98, #00000069), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2TKi9oLlk_AKPzSEZwVCIp8TgCFheM6z-ipzFi_BwaRHxi11W-xw_ltoHkD3W_GBWiJM&usqp=CAU) no-repeat center;
+    background-size: cover;
+
+}
+.bg-image-text{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}

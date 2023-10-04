@@ -1,0 +1,10 @@
+.subscribe{
+    background: var(--main-color);
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-form .form-control:focus{
+    box-shadow: none;
+}
